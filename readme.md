@@ -4,8 +4,7 @@ Suchan, T., Talavera, G., Sáez, L., Ronikier, M., Vila, R. (2018). Pollen metab
 
 Usage:
 - place raw paired-end reads in `1-rawreads` directory
-- download SINTAX ITS2 database from: https://github.com/molbiodiv/meta-barcoding-dual-
-585 indexing/blob/master/precomputed/viridiplantae_all_2014.sintax.fa
+- download SINTAX ITS2 database from: https://github.com/molbiodiv/meta-barcoding-dual-indexing/blob/master/precomputed/viridiplantae_all_2014.sintax.fa
 - run `process_reads.sh`
 - summarize results in the table using `summarize_classification_sintax.R`
 
