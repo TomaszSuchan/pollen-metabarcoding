@@ -16,7 +16,8 @@ out=$(basename $fvd | sed 's/_R1_001.fastq.gz//g')
 pearRM -j $THREADS -f $fvd -r $rev -o 2-merged/$out  2>&1 | tee 2-merged/$out.log
 done
 
-#remove primer sequences
+#remove primer sequences with remove_primers script from biopieces
+#(http://maasha.github.io/biopieces/)
 for f in 2-merged/*.assembled.fastq
 do
 out=$(basename $f| sed 's/.assembled.fastq//g')
